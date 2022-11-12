@@ -1,0 +1,36 @@
+*,
+*::after,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --primary-dark: #1c1f54;
+  --primary-dark-faded: #1c1f5460;
+  --primary-light: #26c897;
+  --primary-background: #191923;
+  --secondary-light: #279ba1;
+  --primary-button: #298cbe;
+  --primary-purple: #5b326d;
+  --primary-red: #a72a3c;
+  --primary-link: #7bb0e8;
+  --primary-text: #fff;
+  --card-background: rgba(255, 255, 0255, 0.25);
+  --secondary-text: rgba(255, 255, 255, 0.45);
+  background-color: var(--primary-background);
+}
+
+.container {
+  max-width: 1080px;
+  margin: 20px auto;
+}
+
+.logo{
+  margin: 0 auto;
+  display: block;
+}
+
+

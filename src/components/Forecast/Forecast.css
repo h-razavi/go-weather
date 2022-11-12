@@ -1,0 +1,63 @@
+.label{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--primary-text);
+}
+
+.daily-item{
+    background-color: var(--primary-button);
+    border-radius: 15px;
+    height: 40px;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px 20px;
+}
+
+.daily-item img{
+    width: 40px;
+}
+
+.day{
+    color: var(--primary-text);
+    flex: 1 1;
+    font-weight: 600;
+    margin-left: 16px;
+}
+
+.description{
+    flex: 1 1;
+    margin-right: 24px;
+    text-align: right;
+}
+
+.min-max{
+    color: var(--primary-text);
+}
+
+.daily-details-grid{
+    display: grid;
+    grid-row-gap : 0;
+    grid-column-gap: 16px;
+    column-gap: 16px;
+    row-gap: 0;
+    flex: 1 1;
+    grid-template-columns: auto auto;
+    padding: 8px 24px;
+}
+
+.daily-details-grid-item{
+    display: flex;
+    align-items: center;
+    height: 32px;
+    justify-content: space-between;
+}
+
+.daily-details-grid-item label:first-child{
+    color: var(--primary-text);
+}
+
+.daily-details-grid-item label:last-child{
+    color: var(--secondary-text);
+}
